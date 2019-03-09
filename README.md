@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`x86`) Version **83.0.0.20.111** (ARM Comming soon)
+Bypass Instagram SSL Pinning on Android (`x86`) Version **83.0.0.20.111** (ARM Coming soon)
 
 Requirements
 ------------
@@ -10,7 +10,7 @@ Requirements
    *Genymotion virtual devices is rooted by default.*
    
 * ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html))  
-    *Genymotion will install ADB automaticlly and you can find it on `<Installation path>/tools`*
+    *Genymotion will install ADB automatically and you can find it on `<Installation path>/tools`*
   
 * Latest version of JDK ([Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html))
 
@@ -18,7 +18,7 @@ Requirements
 
 Usage
 -----
-1. Install genymotion, your virtual device and start it.  
+1. Install Genymotion, your virtual device and start it.  
 
 2. Download and install Instagram apk on your device.  
 
@@ -30,7 +30,11 @@ Usage
   
 5. Run Burp Suite with `/<JDK Installation path>/bin/java -jar burpsuite_community.jar` and setting up proxy on your android device.  
 
-6. That's it! Now open the Instagram app on your device and see the requests in Burp Suite !
+6. That's it! Now open the Instagram app on your device and intercept the requests in Burp Suite !
+
+Instagram Signature Key (v 83.0.0.20.111) ARM and x86
+-------------------------------------------
+`63f299bfd017344effa1523d46f288bacaa7fcc5f5bdd3c735318ebb35a46ff8`
 
 Donations
 --------
