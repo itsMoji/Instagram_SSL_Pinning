@@ -1,20 +1,20 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`x86`) Version **83.0.0.20.111** (ARM Coming soon)
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **83.0.0.20.111**
 
 Requirements
 ------------
-* Instagram **x86** APK ([Download](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-83-0-0-20-111-144612-release/instagram-83-0-0-20-111-4-android-apk-download/))  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-83-0-0-20-111-144612-release/instagram-83-0-0-20-111-3-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-83-0-0-20-111-144612-release/instagram-83-0-0-20-111-4-android-apk-download/))  
 
-* a **rooted x86** android device (Physical or virtual)  
+* a **rooted** android device (Physical or virtual)  
    *[Genymotion](https://www.genymotion.com/) Android 7+ suggested.*  
    *Genymotion virtual devices is rooted by default.*
    
 * ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html))  
-    *Genymotion will install ADB automatically and you can find it on `<Installation path>/tools`*
+    *Genymotion will install ADB automatically and you can find it on `<Genymotion Installation path>/tools`*
   
 * Latest version of JDK ([Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html))
 
-* Burp Suite (***.Jar version**) ([Download](https://portswigger.net/burp/communitydownload))
+* Burp Suite (***.jar version**) ([Download](https://portswigger.net/burp/communitydownload))
 
 Usage
 -----
@@ -25,7 +25,7 @@ Usage
 3. Run Instagram and close it.  
   ***It's important to run Instagram app once before patching!***  
   
-4. Download the patched file ([x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
+4. Download the patched file ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
   `adb push libliger.so /data/data/com.instagram.android/lib-zstd/libliger.so`  
   
 5. Run Burp Suite with `/<JDK Installation path>/bin/java -jar burpsuite_community.jar` and setting up proxy on your android device.  
