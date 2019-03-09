@@ -25,7 +25,7 @@ Usage
 3. Run Instagram and close it.  
   ***It's important to run Instagram app once before patching!***  
   
-4. Download the patched file ([x86](https://github.com/itsMoji/Instagram_SSL_Pinning/x86/libliger.so)) and push it to the device:  
+4. Download the patched file ([x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
   `adb push libliger.so /data/data/com.instagram.android/lib-zstd/libliger.so`  
   
 5. Run Burp Suite with `/<JDK Installation path>/bin/java -jar burpsuite_community.jar` and setting up proxy on your android device.  
