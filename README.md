@@ -23,7 +23,7 @@ Usage
 2. Download and install Instagram apk on your device.  
 
 3. Run Instagram and close it.  
-  ***It's important to run Instagram app once before patching!***  
+  ***It's important to run Instagram app once before start patching!***  
   
 4. Download the patched file ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
   `adb push libliger.so /data/data/com.instagram.android/lib-zstd/libliger.so`  
@@ -38,4 +38,7 @@ Instagram Signature Key (v91.0.0.18.118) ARM and x86
 
 Donations
 --------
-If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=its13moji%40gmail%2ecom&lc=US&item_name=Instagram_SSL_Pinning_Donation). Thanks!
+If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=its13moji%40gmail%2ecom&lc=US&item_name=Instagram_SSL_Pinning_Donation).  
+Iranian users can donate via [IDPay](https://idpay.ir/itsmoji).  
+  
+Thanks.
