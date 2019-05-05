@@ -33,12 +33,30 @@ Usage
 6. That's it! Now open the Instagram app on your device and intercept the requests in Burp Suite !
 
 Instagram Signature Key (v91.0.0.18.118) ARM and x86
--------------------------------------------
-`7f2efba692e18dd385499a6727ad440a959d575568d5547594cc54c3ff5bbe35`
+----------------------------------------------------
+`7f2efba692e18dd385499a6727ad440a959d575568d5547594cc54c3ff5bbe35`  
+
+Non-Root Method (v72.0.0.21.98)  
+-------------------------------  
+**Note: Version 72.0.0.21.98 is the latest version you can use in non-root method, because in the newer versions libliger.so has been created after first app launch.**
+
+Usage
+-----
+1. Download and install patched APK ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/x86)).  
+
+2. Run Burp Suite with `/<JDK Installation path>/bin/java -jar burpsuite_community.jar` and setting up proxy on your android device.  
+
+3. That's it! Now open the Instagram app on your device and intercept the requests in Burp Suite !  
+
+Instagram Signature Key (v72.0.0.21.98) ARM and x86
+----------------------------------------------------
+`19ce5f445dbfd9d29c59dc2a78c616a7fc090a8e018b9267bc4240a30244c53b`  
+
 
 Donations
 --------
 If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=its13moji%40gmail%2ecom&lc=US&item_name=Instagram_SSL_Pinning_Donation).  
+Bitcoin: 1GhTaq5HqEj4xpP42drPxT4FNzxp8zUTfK  
 Iranian users can donate via [IDPay](https://idpay.ir/itsmoji).  
   
 Thanks.
