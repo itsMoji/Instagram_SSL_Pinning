@@ -1,26 +1,39 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **101.0.0.15.120**
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **103.1.0.15.119**
 
 [Watch tutorial video](https://youtu.be/gmYzlpy2Ii4)  
 
-Requirements
-------------
-* Instagram APK ([ARM](https://apkpure.com/instagram/com.instagram.android/download/162439029-APK) - [x86](https://apkpure.com/instagram/com.instagram.android/download/162439045-APK))  
+## Requirements
+
+* Latest version of JDK ([Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html))
+
+* Burp Suite **v1.7.36** (***.jar version**) ([Download](https://portswigger.net/burp/releasesarchive/community))
+
+* Instagram APK ([ARM](https://apkpure.com/instagram/com.instagram.android/download/164094530-APK) - [x86](https://apkpure.com/instagram/com.instagram.android/download/164094540-APK)) - ***For root method only***  
   ***Download only from this links, not Google Play or somewhere else***  
   
-* a **rooted** Android device (Physical or virtual)  
+* a **rooted** Android device (Physical or virtual) - ***For root method only***  
    *[Genymotion](https://www.genymotion.com/) Android 8+ recommended.*  
    *Genymotion virtual devices is x86 and rooted by default.*
    
-* ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html))  
+* ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html)) - ***For root method only***  
     *Genymotion will install ADB automatically and you can find it on `<Genymotion Installation path>/tools`*
   
-* Latest version of JDK ([Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html))
+## Non-Root Method (Easier way, Recommended)
 
-* Burp Suite (***.jar version**) ([Download](https://portswigger.net/burp/communitydownload))
+### Usage
 
-Usage (**It's important to do step by step**)
------
+1. Download and install patched APK ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/x86)). (*ARM on physical device recommended!*)
+
+2. Run Burp Suite with `/<JDK Installation path>/bin/java -jar burpsuite_community.jar` and setting up proxy on your Android device.  
+    *You should [install Burp Suite certificate on your Android device](https://distributedcompute.com/2017/12/12/tech-note-installing-burp-certificate-on-android/)* 
+
+3. That's it! Now open the Instagram app on your device and intercept the requests in Burp Suite !  
+
+## Root Method
+
+### Usage (**It's important to do step by step**)
+
 1. Install Genymotion or your virtual device and start it.  
 
 2. Download and install Instagram apk on your device.  
@@ -39,30 +52,12 @@ Usage (**It's important to do step by step**)
     
 7. That's it! Now open the Instagram app and intercept the requests in Burp Suite !
 
-Instagram Signature Key (v101.0.0.15.120) ARM and x86
-----------------------------------------------------
-`e6358aeede676184b9fe702b30f4fd35e71744605e39d2181a34cede076b3c33`  
+## Instagram Signature Key (v103.1.0.15.119) ARM and x86
 
-Non-Root Method (v72.0.0.21.98)  
--------------------------------  
-**Note: Version 72.0.0.21.98 is the latest version you can use in non-root method, because in the newer versions libliger.so has been created after first app launch.**
+`374b49ca8d2178d4581d15c147ae6a3f42a2f9ca7dad3cbd68c99679caccc65a`  
 
-Usage
------
-1. Download and install patched APK ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/x86)).  
+## Donations
 
-2. Run Burp Suite with `/<JDK Installation path>/bin/java -jar burpsuite_community.jar` and setting up proxy on your Android device.  
-    *You should [install Burp Suite certificate on your Android device](https://distributedcompute.com/2017/12/12/tech-note-installing-burp-certificate-on-android/)* 
-
-3. That's it! Now open the Instagram app on your device and intercept the requests in Burp Suite !  
-
-Instagram Signature Key (v72.0.0.21.98) ARM and x86
-----------------------------------------------------
-`19ce5f445dbfd9d29c59dc2a78c616a7fc090a8e018b9267bc4240a30244c53b`  
-
-
-Donations
---------
 If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=its13moji%40gmail%2ecom&lc=US&item_name=Instagram_SSL_Pinning_Donation).  
 Bitcoin: `1GhTaq5HqEj4xpP42drPxT4FNzxp8zUTfK`  
 Iranian users can donate via [IDPay](https://idpay.ir/itsmoji).  
