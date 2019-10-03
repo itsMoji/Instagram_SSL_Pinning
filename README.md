@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **112.0.0.29.121** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **113.0.0.39.122** 
 
 ## Requirements
 
@@ -7,7 +7,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **112.0.0.29.121
 
 * Burp Suite **v1.7.36** (***.jar version**) ([Download](https://portswigger.net/burp/releasesarchive/community))
 
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-112-0-0-29-121-release/instagram-112-0-0-29-121-2-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-112-0-0-29-121-release/instagram-112-0-0-29-121-3-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-113-0-0-39-122-release/instagram-113-0-0-39-122-7-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-113-0-0-39-122-release/instagram-113-0-0-39-122-4-android-apk-download/)) - ***For root method only***  
   ***Download only from this links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
@@ -56,9 +56,9 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **112.0.0.29.121
     
 7. That's it! Now open the Instagram app and intercept the requests in Burp Suite !
 
-## Instagram Signature Key (v112.0.0.29.121) ARM and x86
+## Instagram Signature Key (v113.0.0.39.122) ARM and x86
 
-`25b21bf292dba1b7936a9aa104b3de4efc9d1b8b9c9125a4b7025ef1036dffd3`  
+`8013dff8e97c16461a8881071210e8271c8fb0cf604d3c7d8f798df621435a18`  
 
 ## Donations
 
