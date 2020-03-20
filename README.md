@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **130.0.0.31.121** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **133.0.0.32.120** 
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **130.0.0.31.121
 * Burp Suite **v1.7.36** (***.jar version**) ([Download](https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=Jar))   
   ***!!! Please DON'T USE CHARLES, FIDDLER OR MITMPROXY. Only use \*.JAR VERSION of Burp Suit and ONLY VERSION 1.7.36, NOT v2 or v2020. And please run it with the LATEST VERSION OF JAVA !!!***  
   
-* Instagram APK ([ARM v117.0.0.28.123](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-117-0-0-28-123-release/instagram-117-0-0-28-123-3-android-apk-download/) - [x86 v130.0.0.31.121](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-130-0-0-31-121-release/instagram-130-0-0-31-121-6-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-133-0-0-32-120-release/instagram-133-0-0-32-120-3-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-133-0-0-32-120-release/instagram-133-0-0-32-120-4-android-apk-download/)) - ***For root method only***  
   ***Download only from this links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
@@ -59,8 +59,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **130.0.0.31.121
 
 ## Instagram Signature Key for ARM and x86
 
-* **v117.0.0.28.123:** `a86109795736d73c9a94172cd9b736917d7d94ca61c9101164894b3f0d43bef4`  
-* **v130.0.0.31.121:** `f0bdfd5332d66a64d5e04965e6a7ade67c4e2cfc57ea38f0083c0400640a5e20`  
+* **v133.0.0.32.120:** `3ab43afe09a883498054ae3584340e4a27b900e4f296e411a8f98ecf6db2bbc4`  
 
 ## Donations
 
