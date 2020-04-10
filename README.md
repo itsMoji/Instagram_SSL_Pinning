@@ -13,7 +13,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **136.0.0.34.124
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
    *[Genymotion](https://www.genymotion.com/) Android 8+ recommended.*  
-   *Genymotion virtual devices is x86 and rooted by default.*
+   *Genymotion virtual devices is x86 and rooted by default.*  
    **Instagram versions grater than 133.0.0.32.120 will crash on Genymotion, Try install on a physical device!**
    
 * ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html)) - ***For root method only***  
