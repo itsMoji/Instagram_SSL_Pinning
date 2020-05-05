@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **136.0.0.34.124** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **140.0.0.30.126** 
 
 ## Requirements
 
@@ -8,13 +8,12 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **136.0.0.34.124
 * Burp Suite **v1.7.36** (***.jar version**) ([Download](https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=Jar))   
   ***!!! Please DON'T USE CHARLES, FIDDLER OR MITMPROXY. Only use \*.JAR VERSION of Burp Suit and ONLY VERSION 1.7.36, NOT v2 or v2020. And please run it with the LATEST VERSION OF JAVA !!!***  
   
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-136-0-0-34-124-release/instagram-136-0-0-34-124-9-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-136-0-0-34-124-release/instagram-136-0-0-34-124-6-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-140-0-0-30-126-release/instagram-140-0-0-30-126-3-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-140-0-0-30-126-release/instagram-140-0-0-30-126-4-android-apk-download/)) - ***For root method only***  
   ***Download only from this links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
    *[Genymotion](https://www.genymotion.com/) Android 8+ recommended.*  
    *Genymotion virtual devices is x86 and rooted by default.*  
-   **Instagram versions grater than 133.0.0.32.120 will crash on Genymotion, Try install on a physical device!**
    
 * ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html)) - ***For root method only***  
     *Genymotion will install ADB automatically and you can find it on `<Genymotion Installation path>/tools`*
@@ -59,6 +58,8 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **136.0.0.34.124
 ## Instagram Signature Key for ARM and x86
 
 * **v136.0.0.34.124:** `46024e8f31e295869a0e861eaed42cb1dd8454b55232d85f6c6764365079374b`  
+* **Versions greater than 136.0.0.34.124**: `SIGNATURE`  
+    Example: `signed_body=SIGNATURE.{"phone_id":"51df5a24-e59e-46cd-bc01-fe658aba9f18","_csrftoken":"mPzWvJ399rqCxOY5rn6Bggq7oOcFkf6U","usage":"prefill"}`
 
 ## Donations
 
