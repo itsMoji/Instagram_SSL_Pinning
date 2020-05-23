@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **141.0.0.32.118** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **142.0.0.34.110** 
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **141.0.0.32.118
 * Burp Suite **v1.7.36** (***.jar version**) ([Download](https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=Jar))   
   ***!!! Please DON'T USE CHARLES, FIDDLER OR MITMPROXY. Only use \*.JAR VERSION of Burp Suit and ONLY VERSION 1.7.36, NOT v2 or v2020. And please run it with the LATEST VERSION OF JAVA !!!***  
   
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-141-0-0-32-118-release/instagram-141-0-0-32-118-3-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-141-0-0-32-118-release/instagram-141-0-0-32-118-14-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-142-0-0-34-110-release/instagram-142-0-0-34-110-8-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-142-0-0-34-110-release/instagram-142-0-0-34-110-6-android-apk-download/)) - ***For root method only***  
   ***Download only from these links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
@@ -18,11 +18,12 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **141.0.0.32.118
 * ADB ([Download](https://developer.android.com/studio/releases/platform-tools.html)) - ***For root method only***  
     *Genymotion will install ADB automatically, and you can find it on `<Genymotion Installation path>/tools`*
   
-## Non-Root Method (Easier way, Recommended)
+## Non-Root Method (Recommended)
 
 ### Usage
 
-1. Download and install patched APK ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/x86)). (*ARM on a physical device recommended!*)
+1. Download and install patched APK ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/x86))  
+    ***ARM on a physical device or ARM on Genymotion Android 8-Oreo with [ARM Translation](https://mega.nz/#F!JhcFwKpC!yfhfeUzvIZoSdBgfdZ9Ygg) strongly recommended!***
 
     1.2. **For x86 only,** Open Instagram app (wait a few seconds) and close it.  
            ***It's important to run Instagram app once, before setting the proxy!***  
