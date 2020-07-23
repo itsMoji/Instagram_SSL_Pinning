@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **148.0.0.33.121** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **151.0.0.23.120** 
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **148.0.0.33.121
 * Burp Suite **v1.7.36** (***.jar version**) ([Download](https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=Jar))   
   ***!!! Please DON'T USE CHARLES, FIDDLER OR MITMPROXY. Only use \*.JAR VERSION of Burp Suit and ONLY VERSION 1.7.36, NOT v2 or v2020. And please run it with the LATEST VERSION OF JAVA !!!***  
   
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-148-0-0-33-121-release/instagram-148-0-0-33-121-8-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-148-0-0-33-121-release/instagram-148-0-0-33-121-7-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-151-0-0-23-120-release/instagram-151-0-0-23-120-8-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-151-0-0-23-120-release/instagram-151-0-0-23-120-17-android-apk-download/download/)) - ***For root method only***  
   ***Download only from these links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
@@ -64,8 +64,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **148.0.0.33.121
 
 ## Donations
 
-If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=its13moji%40gmail%2ecom&lc=US&item_name=Instagram_SSL_Pinning_Donation).  
-Bitcoin: `1GhTaq5HqEj4xpP42drPxT4FNzxp8zUTfK`  
+If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=its13moji%40gmail%2ecom&lc=US&item_name=Instagram_SSL_Pinning_Donation).   
 Iranian users can donate via [IDPay](https://idpay.ir/itsmoji).  
   
 Thanks.
