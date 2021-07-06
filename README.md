@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **187.0.0.32.120** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **194.0.0.36.172** 
 
 **Do you like this project? Support it by donating**
 
@@ -13,7 +13,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **187.0.0.32.120
 
 * The latest version of ([Burp Suite](https://portswigger.net/burp/releases/community/latest)) or ([mitmproxy](https://mitmproxy.org/))  
   
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-187-0-0-32-120-release/instagram-187-0-0-32-120-4-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-187-0-0-32-120-release/instagram-187-0-0-32-120-14-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-194-0-0-36-172-release/instagram-194-0-0-36-172-11-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-194-0-0-36-172-release/instagram-194-0-0-36-172-2-android-apk-download/)) - ***For root method only***  
   ***Download only from these links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
@@ -51,7 +51,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **187.0.0.32.120
   ***It's important to run Instagram app once, before start patching!***  
   
 3. Download the patched file ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
-  ARM and x86: `adb push libliger.so /data/data/com.instagram.android/lib-superpack-br/libliger.so`  
+  ARM and x86: `adb push libliger.so /data/data/com.instagram.android/lib-compressed/libliger.so`  
   
 4. Open Instagram app again (wait a few seconds) and close it.  
   
