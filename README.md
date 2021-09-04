@@ -3,9 +3,9 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **203.0.0.29.118
 
 **Do you like this project? Support it by donating**
 
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.com/donate?hosted_button_id=CR7EJC69TZ8AQ) or [paypal.me/ThePRP](https://paypal.me/ThePRP)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 1KskrTaaVtvreRSfqTpmmtrASmR7WALnn
-- Iranian users can donate via [IDPay](https://idpay.ir/itsmoji). 
+- **Bitcoin**: bc1qfr59gu23rxurhj8aarerx3y6gmh546kf88cte6
+- **Ethereum**: 0xbCdC08E42B31ECB9a97749F69BCce7AcE6834cAC
+- **Dogecoin**: DEvEGbjmKw8v2Rka9JbKVWMBepXfZh95Zf  
 
 ## Requirements
 
