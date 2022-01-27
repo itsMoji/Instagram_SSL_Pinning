@@ -1,5 +1,5 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **219.0.0.12.117** 
+Bypass Instagram SSL Pinning on Android (`ARM, x86 and AArch64`) Version **219.0.0.12.117** 
 
 **Do you like this project? Support it by donating**
 
@@ -21,7 +21,7 @@ In recent versions, Instagram added a new encryption layer (or maybe just a cust
 
 * The latest version of ([Burp Suite](https://portswigger.net/burp/releases/community/latest)) or ([mitmproxy](https://mitmproxy.org/))  
   
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-6-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-7-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-6-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-7-android-apk-download/) - [AArch64](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-2-android-apk-download/)) - ***For root method only***  
   ***Download only from these links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
@@ -58,8 +58,8 @@ In recent versions, Instagram added a new encryption layer (or maybe just a cust
 2. Open Instagram app (wait a few seconds) and close it.  
   ***It's important to run Instagram app once, before start patching!***  
   
-3. Download the patched file ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
-  ARM and x86: `adb push libliger.so /data/data/com.instagram.android/lib-compressed/libliger.so`  
+3. Download the patched file ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86) - [AArch64](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm64-v8a)) and push it to the device:  
+  ARM, x86 and AArch64: `adb push libliger.so /data/data/com.instagram.android/lib-compressed/libliger.so`  
   
 4. Open Instagram app again (wait a few seconds) and close it.  
   
