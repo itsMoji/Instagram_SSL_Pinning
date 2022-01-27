@@ -1,11 +1,16 @@
 # Instagram SSL Pinning
-Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **215.0.0.27.359** 
+Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **219.0.0.12.117** 
 
 **Do you like this project? Support it by donating**
 
 - **Bitcoin**: bc1qfr59gu23rxurhj8aarerx3y6gmh546kf88cte6
 - **Ethereum**: 0xbCdC08E42B31ECB9a97749F69BCce7AcE6834cAC
 - **Dogecoin**: DEvEGbjmKw8v2Rka9JbKVWMBepXfZh95Zf  
+
+- [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
+[buymeacoffee]: https://www.buymeacoffee.com/itsmoji
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
 ### **About ARM Patched APK (Non-Root Method)**
 In recent versions, Instagram added a new encryption layer (or maybe just a custom compression method) to the ARM libraries that need to be decrypted to create the patched APK. Currently, I'm busy with my projects and don't have time to work on it. I've added an encrypted file to the [dev/](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/dev) folder; you can download and take a look at it. If you know what this file is and how it can be decrypted/decompressed, please contact me or open a new issue.
@@ -16,7 +21,7 @@ In recent versions, Instagram added a new encryption layer (or maybe just a cust
 
 * The latest version of ([Burp Suite](https://portswigger.net/burp/releases/community/latest)) or ([mitmproxy](https://mitmproxy.org/))  
   
-* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-215-0-0-27-359-release/instagram-215-0-0-27-359-5-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-215-0-0-27-359-release/instagram-215-0-0-27-359-13-android-apk-download/)) - ***For root method only***  
+* Instagram APK ([ARM](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-6-android-apk-download/) - [x86](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-219-0-0-12-117-release/instagram-219-0-0-12-117-7-android-apk-download/)) - ***For root method only***  
   ***Download only from these links, not Google Play or somewhere else***  
   
 * a **rooted** Android device (Physical or virtual) - ***For root method only***  
