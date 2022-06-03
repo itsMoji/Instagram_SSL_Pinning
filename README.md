@@ -12,9 +12,6 @@ Bypass Instagram SSL Pinning on Android (`ARM, x86 and AArch64`) Version **237.0
 [buymeacoffee]: https://www.buymeacoffee.com/itsmoji
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
-### **About ARM Patched APK (Non-Root Method)**
-In recent versions, Instagram added a new encryption layer (or maybe just a custom compression method) to the ARM libraries that need to be decrypted to create the patched APK. Currently, I'm busy with my projects and don't have time to work on it. I've added an encrypted file to the [dev/](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/dev) folder; you can download and take a look at it. If you know what this file is and how it can be decrypted/decompressed, please contact me or open a new issue.
-
 ## Requirements
 
 * The latest version of JDK ([Download](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html))
